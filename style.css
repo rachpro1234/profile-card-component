@@ -17,7 +17,7 @@ body {
     min-height: calc(100vh - 0.1px);
     background-color: hsl(185, 75%, 39%);
     overflow: hidden;
-
+    overflow-y: hidden;
  }
 
  .top-img {
@@ -155,19 +155,5 @@ article img {
      .container {
        width: 100%;
     }
-
-    .attribution  {
-        text-align: center;
-        font-weight: 700;
-        text-decoration: none;
-        color: white;
-        font-family: mv boli;
-        margin-left: 10px;
-        position: absolute;
-        left: 50%;
-        object-position: center;
-        padding: 4px;
-      }
-   
   }
   
