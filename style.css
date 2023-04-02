@@ -17,7 +17,7 @@ body {
     min-height: calc(100vh - 0.1px);
     background-color: hsl(185, 75%, 39%);
     overflow: hidden;
-   
+
  }
 
  .top-img {
@@ -165,6 +165,8 @@ article img {
         margin-left: 10px;
         position: absolute;
         left: 50%;
+        object-position: center;
+        padding: 4px;
       }
    
   }
