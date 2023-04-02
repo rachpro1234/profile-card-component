@@ -17,7 +17,7 @@ body {
     min-height: calc(100vh - 0.1px);
     background-color: hsl(185, 75%, 39%);
     overflow: hidden;
-    overflow-y: scroll;
+   
  }
 
  .top-img {
@@ -36,7 +36,7 @@ body {
 
 .container {
     background-color: white;
-    max-width: 20%;
+    max-width: 300px;
     height: 370px;
     overflow: hidden;
     position: absolute;
@@ -151,10 +151,21 @@ article img {
   }
 
 
-  @media screen and (max-width: 500px) {
-     body {
-       width: 150px;
-       color: blue;
+  @media  (min-width: 600px) {
+     .container {
+       width: 100%;
     }
+
+    .attribution  {
+        text-align: center;
+        font-weight: 700;
+        text-decoration: none;
+        color: white;
+        font-family: mv boli;
+        margin-left: 10px;
+        position: absolute;
+        left: 50%;
+      }
+   
   }
   
